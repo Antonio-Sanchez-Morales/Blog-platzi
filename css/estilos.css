@@ -9,17 +9,37 @@ html {
 body {
   font-size: 1.6rem;
 }
-h1 {
-  color: blue;
-  margin-left: 1rem;
-}
-.header {
+.container-nav {
   width: 70%;
-  padding: 1em;
-  text-align: left;
-  border: 1px solid black;
+  border: 1px solid gray;
   margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
 }
-.cabecera {
-  font-size: 2rem;
+.logo h1 {
+  color: blue;
+}
+.logo span {
+  color: red;
+}
+.nav {
+}
+.nav-bar {
+  list-style: none;
+}
+.nav-bar__item {
+  display: inline-block;
+  margin: 2rem;
+}
+.nav-bar .nav-bar__item a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  background-color: blue;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+.nav-bar .nav-bar__item a:hover {
+  color: red;
 }
