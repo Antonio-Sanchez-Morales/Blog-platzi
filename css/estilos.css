@@ -43,3 +43,12 @@ body {
 .nav-bar .nav-bar__item a:hover {
   color: red;
 }
+footer {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
